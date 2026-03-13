@@ -1,0 +1,134 @@
+
+
+
+body {
+    margin: 0;
+}
+#footer h3 {
+	font: normal 1.3em Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin-bottom: .5em;
+	letter-spacing: .1em;
+}
+#footer p{
+	font: normal 1em Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+}
+#footer ul#quickNav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul#quickNav li {
+	margin: 0 0 .5em 0;
+	padding: 0 ;
+}
+#footer ul#quickNav li a{
+	text-decoration: none;
+	color: #fff;
+}
+#footer ul#quickNav li a:hover {
+	color: #193742;
+	border-bottom-color: #193742;
+}
+
+#footer #footerMenu {
+	float: left;
+	width: 230px;
+}
+#footer #footerBody {
+	float: right;
+	width: 640px;
+}
+#footer #footerBody a {
+	text-decoration: none;
+	color: #fff;
+}
+#footer #footerBody a:hover {
+	color: #193742;
+	border-bottom-color: #193742;
+}
+#footer #footerBody #footerMidCol {
+	float: left;
+	width: 270px;
+}
+#footer #footerBody #footerMidCol p {
+	margin-bottom: 2em;
+}
+#footer #footerBody #footerRightCol {
+	float: right;
+	width: 370px;
+}
+#footer #footerBody #footerRightCol h1{
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	letter-spacing:.1em;
+	text-align:right;
+	margin-bottom: .25em;
+}
+#footer #footerBody #footerRightCol p{
+	color: #fff;
+	letter-spacing:.1em;
+	line-height: 1.2;
+	text-align:right;
+	margin-bottom: 1em;
+}
+#footer #footerBody #footerRightCol p.phone{
+	font: bold 1.6em Georgia, "Times New Roman", Times, serif;
+	color: #fff;
+	letter-spacing:.1em;
+}
+/* added for error message on form */
+#errorMessage {
+    font-size: 1.5em;
+    color: #f00;
+}
+
+#footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.haut {
+    position: relative;
+    height: 50vh;
+    background-image: url("/media/etudiant/4849-2EC3/projet/images/image5.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bas {
+    height: 50vh;
+    padding: 40px;
+}
+
+
+.haut h1 {
+   position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 50px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+.haut p {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  font-size: 25px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+.decalage {
+  margin-left: +200px;
+  }
+  
+.card-body h1{
+   font-size: 18px;
+   
+   
+   
