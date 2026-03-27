@@ -13,7 +13,7 @@ document.querySelector("[data-type='nombre de personnes']")
     let entrantes = [10, 25, 60, 55, 30, 15, 65];
     let sortantes = [5, 10, 20, 40, 60, 50, 65];
 
-    // Création du graphique
+    
     chartPersonnes = new Chart(document.getElementById("graphPersonnes"), {
       type: "line",
       data: {
